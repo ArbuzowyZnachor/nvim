@@ -20,4 +20,5 @@ require('pckr').add{
   -- My plugins here
   -- 'foo1/bar1.nvim';
   -- 'foo2/bar2.nvim';
+  "nvim-lua/plenary.nvim"
 }
