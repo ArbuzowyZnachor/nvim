@@ -22,4 +22,8 @@ require('pckr').add{
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   };
+  {
+	  "rebelot/kanagawa.nvim", 
+	  config = function() vim.cmd("colorscheme kanagawa-lotus") end
+  };
 }
