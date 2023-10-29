@@ -20,6 +20,9 @@ require('pckr').add{
   -- My plugins here
   -- 'foo1/bar1.nvim';
   -- 'foo2/bar2.nvim';
-  "nvim-lua/plenary.nvim",
-  'nvim-telescope/telescope.nvim'
+  {
+	  'nvim-telescope/telescope.nvim', tag = '0.1.4',
+	  -- or                            , branch = '0.1.x',
+	  requires = { {'nvim-lua/plenary.nvim'} }
+  };
 }
