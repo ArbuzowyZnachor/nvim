@@ -23,7 +23,7 @@ require('pckr').add{
 	  requires = { {'nvim-lua/plenary.nvim'} }
   };
   {
-	  "rebelot/kanagawa.nvim", 
+	  "catppuccin/nvim", as = "catppuccin" 
   };
   {
 	  'nvim-treesitter/nvim-treesitter',
