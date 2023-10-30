@@ -28,5 +28,11 @@ require('pckr').add{
   {
 	  'nvim-treesitter/nvim-treesitter',
 	  run = ':TSUpdate'
-  }
+  };
+  {
+	  'nvim-tree/nvim-tree.lua',
+	  requires = {
+		  'nvim-tree/nvim-web-devicons', -- optional
+	  }
+  };
 }
