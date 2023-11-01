@@ -42,4 +42,7 @@ require('pckr').add{
   {
 	  'ThePrimeagen/harpoon'
   };
+  {
+	  'tpope/vim-fugitive'
+  };
 }
