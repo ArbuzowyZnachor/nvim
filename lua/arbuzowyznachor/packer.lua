@@ -35,4 +35,8 @@ require('pckr').add{
 		  'nvim-tree/nvim-web-devicons', -- optional
 	  }
   };
+  {
+	  'nvim-lualine/lualine.nvim',
+	  requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 }
